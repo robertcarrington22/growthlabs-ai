@@ -1,0 +1,38 @@
+{
+  "ffdd93f2-5ef2-42d1-aa51-b3caff5e8f0d": {
+    "audit_id": "ffdd93f2-5ef2-42d1-aa51-b3caff5e8f0d",
+    "status": "completed",
+    "progress": 100,
+    "created_at": "2026-07-07T21:02:51.818413+00:00",
+    "completed_at": "2026-07-07T21:02:52.018110+00:00",
+    "client_name": "API Test Client",
+    "txn_path": "/home/team/shared/ai-engine/api/uploads/ffdd93f2-5ef2-42d1-aa51-b3caff5e8f0d/transactions.csv",
+    "cust_path": "/home/team/shared/ai-engine/api/uploads/ffdd93f2-5ef2-42d1-aa51-b3caff5e8f0d/customers.csv",
+    "error": null,
+    "report_path": "/home/team/shared/ai-engine/api/reports/ffdd93f2-5ef2-42d1-aa51-b3caff5e8f0d.json"
+  },
+  "3a13e9d0-70e9-448d-8f45-dd4c37b7df41": {
+    "audit_id": "3a13e9d0-70e9-448d-8f45-dd4c37b7df41",
+    "status": "completed",
+    "progress": 100,
+    "created_at": "2026-07-07T21:05:00.788492+00:00",
+    "completed_at": "2026-07-07T21:05:01.009587+00:00",
+    "client_name": "API Test",
+    "txn_path": "/home/team/shared/ai-engine/api/uploads/3a13e9d0-70e9-448d-8f45-dd4c37b7df41/transactions.csv",
+    "cust_path": "/home/team/shared/ai-engine/api/uploads/3a13e9d0-70e9-448d-8f45-dd4c37b7df41/customers.csv",
+    "error": null,
+    "report_path": "/home/team/shared/ai-engine/api/reports/3a13e9d0-70e9-448d-8f45-dd4c37b7df41.json"
+  },
+  "25f851c9-142b-4712-b0f6-750b7b1c7cc8": {
+    "audit_id": "25f851c9-142b-4712-b0f6-750b7b1c7cc8",
+    "status": "completed",
+    "progress": 100,
+    "created_at": "2026-07-07T21:57:28.096632+00:00",
+    "completed_at": "2026-07-07T21:57:28.294923+00:00",
+    "client_name": "SummaryTest",
+    "txn_path": "/home/team/shared/ai-engine/api/uploads/25f851c9-142b-4712-b0f6-750b7b1c7cc8/transactions.csv",
+    "cust_path": "/home/team/shared/ai-engine/api/uploads/25f851c9-142b-4712-b0f6-750b7b1c7cc8/customers.csv",
+    "error": null,
+    "report_path": "/home/team/shared/ai-engine/api/reports/25f851c9-142b-4712-b0f6-750b7b1c7cc8.json"
+  }
+}

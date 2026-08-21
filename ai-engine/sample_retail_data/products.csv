@@ -1,0 +1,42 @@
+sku,category,product_name,unit_cost,unit_price,demand_pattern
+SEA-001,Seasonal,Holiday Decor Set,8.0,19.99,seasonal
+SEA-002,Seasonal,Gift Wrap Bundle,3.5,9.99,seasonal
+SEA-003,Seasonal,Advent Calendar,12.0,29.99,seasonal
+SEA-004,Seasonal,Summer Grill Kit,15.0,34.99,seasonal
+SEA-005,Seasonal,Winter Boots,25.0,59.99,seasonal
+SEA-006,Seasonal,Umbrella,5.0,14.99,seasonal
+SEA-007,Seasonal,Sunscreen Pack,4.0,11.99,seasonal
+SEA-008,Seasonal,Holiday Ornaments,2.0,5.99,seasonal
+SEA-009,Seasonal,Halloween Costume,10.0,24.99,seasonal
+SEA-010,Seasonal,Easter Basket,6.0,14.99,seasonal
+STB-001,Staples,Paper Towels 12pk,4.0,9.99,stable
+STB-002,Staples,Toilet Paper 24pk,6.0,14.99,stable
+STB-003,Staples,Laundry Detergent,5.0,12.99,stable
+STB-004,Staples,Dish Soap 3pk,3.0,7.99,stable
+STB-005,Staples,All-Purpose Cleaner,2.5,6.99,stable
+STB-006,Staples,Trash Bags 40pk,3.0,7.99,stable
+STB-007,Staples,Bottled Water 24pk,2.0,5.99,stable
+STB-008,Staples,Bread Loaf,1.5,3.99,stable
+STB-009,Staples,Milk Gallon,2.5,4.99,stable
+STB-010,Staples,Eggs 12pk,1.5,4.49,stable
+TRD-001,Trending,Wireless Earbuds,15.0,39.99,trending
+TRD-002,Trending,Phone Case,5.0,19.99,trending
+TRD-003,Trending,USB-C Hub,12.0,29.99,trending
+TRD-004,Trending,LED Desk Lamp,10.0,24.99,trending
+TRD-005,Trending,Smart Water Bottle,8.0,19.99,trending
+TRD-006,Trending,Yoga Mat,10.0,24.99,trending
+TRD-007,Trending,Standing Desk Mat,15.0,39.99,trending
+TRD-008,Trending,Blue Light Glasses,3.0,14.99,trending
+INT-001,Intermittent,Snow Shovel,8.0,19.99,intermittent
+INT-002,Intermittent,Tent 4-person,40.0,99.99,intermittent
+INT-003,Intermittent,Camping Stove,25.0,59.99,intermittent
+INT-004,Intermittent,Espresso Machine,60.0,149.99,intermittent
+INT-005,Intermittent,Air Purifier,45.0,119.99,intermittent
+INT-006,Intermittent,Electric Scooter,80.0,199.99,intermittent
+INT-007,Intermittent,Home Projector,70.0,179.99,intermittent
+INT-008,Intermittent,VR Headset,100.0,299.99,intermittent
+DED-001,Dead,VHS Adapter,2.0,4.99,dead
+DED-002,Dead,MiniDV Tape 5pk,3.0,8.99,dead
+DED-003,Dead,Floppy Disk USB Reader,5.0,12.99,dead
+DED-004,Dead,Nintendo DS Game,4.0,9.99,dead
+DED-005,Dead,Landline Phone,10.0,24.99,dead

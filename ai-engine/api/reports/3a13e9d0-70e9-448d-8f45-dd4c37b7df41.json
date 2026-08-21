@@ -1,0 +1,2204 @@
+{
+  "report_metadata": {
+    "title": "GrowthLabs AI \u2014 Revenue Discovery Audit: API Test",
+    "client": "API Test",
+    "report_date": "2026-07-07",
+    "engine_version": "1.0.0",
+    "generated_by": "GrowthLabs AI Revenue Analysis Engine"
+  },
+  "executive_summary": {
+    "client": "API Test",
+    "report_date": "2026-07-07",
+    "analysis_period": {
+      "start": "2024-01-04",
+      "end": "2025-12-30"
+    },
+    "key_metrics": {
+      "total_revenue_analyzed": 62850277.92,
+      "total_customers_analyzed": 200,
+      "overall_aov": 12570.06,
+      "transactions_analyzed": 5000,
+      "data_quality_warnings": 0
+    },
+    "finding_summary": {
+      "total_findings": 48,
+      "critical_issues": 0,
+      "warnings": 47,
+      "opportunities": 0,
+      "positive_signals": 1
+    }
+  },
+  "data_quality": {
+    "records_loaded": {
+      "customers_loaded": 200,
+      "transactions_loaded": 5000,
+      "date_range": {
+        "min": "2024-01-04 00:00:00",
+        "max": "2025-12-30 00:00:00"
+      },
+      "unique_customers_with_txns": 200,
+      "validation_errors": [],
+      "warnings": []
+    },
+    "issues": []
+  },
+  "revenue_analysis": {
+    "summary": {
+      "total_revenue": 62850277.92,
+      "total_transactions": 5000,
+      "date_range": {
+        "start": "2024-01-04",
+        "end": "2025-12-30"
+      },
+      "months_of_data": 24,
+      "avg_monthly_revenue": 2618761.58,
+      "median_monthly_revenue": 2569443.05,
+      "avg_revenue_per_transaction": 12570.06,
+      "median_revenue_per_transaction": 5686.02
+    },
+    "monthly_trend": [
+      {
+        "period": "2024-01",
+        "revenue": 383712.93,
+        "transaction_count": 22,
+        "avg_ticket_size": 17441.5
+      },
+      {
+        "period": "2024-02",
+        "revenue": 714423.54,
+        "transaction_count": 56,
+        "avg_ticket_size": 12757.56
+      },
+      {
+        "period": "2024-03",
+        "revenue": 1284090.79,
+        "transaction_count": 111,
+        "avg_ticket_size": 11568.39
+      },
+      {
+        "period": "2024-04",
+        "revenue": 1603786.95,
+        "transaction_count": 140,
+        "avg_ticket_size": 11455.62
+      },
+      {
+        "period": "2024-05",
+        "revenue": 1878036.2,
+        "transaction_count": 157,
+        "avg_ticket_size": 11962.01
+      },
+      {
+        "period": "2024-06",
+        "revenue": 2341348.4,
+        "transaction_count": 182,
+        "avg_ticket_size": 12864.55
+      },
+      {
+        "period": "2024-07",
+        "revenue": 2122159.06,
+        "transaction_count": 193,
+        "avg_ticket_size": 10995.64
+      },
+      {
+        "period": "2024-08",
+        "revenue": 2241968.49,
+        "transaction_count": 197,
+        "avg_ticket_size": 11380.55
+      },
+      {
+        "period": "2024-09",
+        "revenue": 2129039.63,
+        "transaction_count": 174,
+        "avg_ticket_size": 12235.86
+      },
+      {
+        "period": "2024-10",
+        "revenue": 2498112.31,
+        "transaction_count": 210,
+        "avg_ticket_size": 11895.77
+      },
+      {
+        "period": "2024-11",
+        "revenue": 2563418.69,
+        "transaction_count": 203,
+        "avg_ticket_size": 12627.68
+      },
+      {
+        "period": "2024-12",
+        "revenue": 3159763.34,
+        "transaction_count": 230,
+        "avg_ticket_size": 13738.1
+      },
+      {
+        "period": "2025-01",
+        "revenue": 2596356.3,
+        "transaction_count": 201,
+        "avg_ticket_size": 12917.2
+      },
+      {
+        "period": "2025-02",
+        "revenue": 2392996.28,
+        "transaction_count": 190,
+        "avg_ticket_size": 12594.72
+      },
+      {
+        "period": "2025-03",
+        "revenue": 2666359.41,
+        "transaction_count": 208,
+        "avg_ticket_size": 12819.04
+      },
+      {
+        "period": "2025-04",
+        "revenue": 2575467.41,
+        "transaction_count": 211,
+        "avg_ticket_size": 12206.01
+      },
+      {
+        "period": "2025-05",
+        "revenue": 2900670.88,
+        "transaction_count": 217,
+        "avg_ticket_size": 13367.15
+      },
+      {
+        "period": "2025-06",
+        "revenue": 2666083.78,
+        "transaction_count": 244,
+        "avg_ticket_size": 10926.57
+      },
+      {
+        "period": "2025-07",
+        "revenue": 2960780.89,
+        "transaction_count": 225,
+        "avg_ticket_size": 13159.03
+      },
+      {
+        "period": "2025-08",
+        "revenue": 2715455.73,
+        "transaction_count": 231,
+        "avg_ticket_size": 11755.22
+      },
+      {
+        "period": "2025-09",
+        "revenue": 3314504.69,
+        "transaction_count": 254,
+        "avg_ticket_size": 13049.23
+      },
+      {
+        "period": "2025-10",
+        "revenue": 3474364.19,
+        "transaction_count": 271,
+        "avg_ticket_size": 12820.53
+      },
+      {
+        "period": "2025-11",
+        "revenue": 4007225.98,
+        "transaction_count": 324,
+        "avg_ticket_size": 12367.98
+      },
+      {
+        "period": "2025-12",
+        "revenue": 7660152.05,
+        "transaction_count": 549,
+        "avg_ticket_size": 13952.92
+      }
+    ],
+    "quarterly_trend": [
+      {
+        "period": "2024Q1",
+        "revenue": 2382227.26,
+        "transaction_count": 189
+      },
+      {
+        "period": "2024Q2",
+        "revenue": 5823171.55,
+        "transaction_count": 479
+      },
+      {
+        "period": "2024Q3",
+        "revenue": 6493167.18,
+        "transaction_count": 564
+      },
+      {
+        "period": "2024Q4",
+        "revenue": 8221294.34,
+        "transaction_count": 643
+      },
+      {
+        "period": "2025Q1",
+        "revenue": 7655711.99,
+        "transaction_count": 599
+      },
+      {
+        "period": "2025Q2",
+        "revenue": 8142222.07,
+        "transaction_count": 672
+      },
+      {
+        "period": "2025Q3",
+        "revenue": 8990741.31,
+        "transaction_count": 710
+      },
+      {
+        "period": "2025Q4",
+        "revenue": 15141742.22,
+        "transaction_count": 1144
+      }
+    ],
+    "monthly_growth_rates": {
+      "average_growth_rate_pct": 16.96,
+      "median_growth_rate_pct": 11.42,
+      "min_growth_rate_pct": -17.83,
+      "max_growth_rate_pct": 91.16,
+      "volatility_pct": 29.91,
+      "positive_periods_pct": 69.6
+    },
+    "quarterly_growth_rates": {
+      "average_growth_rate_pct": 37.27,
+      "median_growth_rate_pct": 11.51,
+      "min_growth_rate_pct": -6.88,
+      "max_growth_rate_pct": 144.44,
+      "volatility_pct": 53.01,
+      "positive_periods_pct": 85.7
+    },
+    "year_over_year_growth_pct": 142.43,
+    "seasonality": [
+      {
+        "month": "Jan",
+        "avg_revenue": 1490034.61,
+        "deviation_from_avg_pct": -43.1
+      },
+      {
+        "month": "Feb",
+        "avg_revenue": 1553709.91,
+        "deviation_from_avg_pct": -40.7
+      },
+      {
+        "month": "Mar",
+        "avg_revenue": 1975225.1,
+        "deviation_from_avg_pct": -24.6
+      },
+      {
+        "month": "Apr",
+        "avg_revenue": 2089627.18,
+        "deviation_from_avg_pct": -20.2
+      },
+      {
+        "month": "May",
+        "avg_revenue": 2389353.54,
+        "deviation_from_avg_pct": -8.8
+      },
+      {
+        "month": "Jun",
+        "avg_revenue": 2503716.09,
+        "deviation_from_avg_pct": -4.4
+      },
+      {
+        "month": "Jul",
+        "avg_revenue": 2541469.98,
+        "deviation_from_avg_pct": -3.0
+      },
+      {
+        "month": "Aug",
+        "avg_revenue": 2478712.11,
+        "deviation_from_avg_pct": -5.3
+      },
+      {
+        "month": "Sep",
+        "avg_revenue": 2721772.16,
+        "deviation_from_avg_pct": 3.9
+      },
+      {
+        "month": "Oct",
+        "avg_revenue": 2986238.25,
+        "deviation_from_avg_pct": 14.0
+      },
+      {
+        "month": "Nov",
+        "avg_revenue": 3285322.33,
+        "deviation_from_avg_pct": 25.5
+      },
+      {
+        "month": "Dec",
+        "avg_revenue": 5409957.7,
+        "deviation_from_avg_pct": 106.6
+      }
+    ],
+    "concentration": {
+      "top_3_months_share_pct": 24.1,
+      "top_months": [
+        {
+          "month": "2025-12",
+          "revenue": 7660152.05
+        },
+        {
+          "month": "2025-11",
+          "revenue": 4007225.98
+        },
+        {
+          "month": "2025-10",
+          "revenue": 3474364.19
+        }
+      ]
+    },
+    "key_findings": [
+      {
+        "type": "positive",
+        "area": "revenue_growth",
+        "finding": "Strong monthly growth rate of 17.0% \u2014 revenue is trending upward consistently.",
+        "recommendation": "Double down on what's working. Identify top-performing channels and allocate more budget.",
+        "module": "revenue_trends"
+      }
+    ]
+  },
+  "customer_analysis": {
+    "summary": {
+      "total_customers": 200,
+      "active_customers": 175,
+      "at_risk_customers": 31,
+      "churn_risk_revenue_at_risk": 8888720.36,
+      "churn_risk_pct": 15.5
+    },
+    "clv_estimates": {
+      "avg_customer_lifetime_value": 314251.39,
+      "median_customer_lifetime_value": 288094.92,
+      "avg_active_clv": 316574.73,
+      "top_10pct_clv_threshold": 563245.33,
+      "bottom_10pct_clv_threshold": 101157.07
+    },
+    "segment_summary": [
+      {
+        "segment": "Champion",
+        "customer_count": 136,
+        "total_revenue": 42908782.89,
+        "revenue_share_pct": 68.3,
+        "avg_revenue_per_customer": 315505.76,
+        "avg_transactions_per_customer": 25.3,
+        "avg_days_since_last_purchase": 11.4
+      },
+      {
+        "segment": "Loyal",
+        "customer_count": 30,
+        "total_revenue": 9662130.79,
+        "revenue_share_pct": 15.4,
+        "avg_revenue_per_customer": 322071.03,
+        "avg_transactions_per_customer": 23.2,
+        "avg_days_since_last_purchase": 43.3
+      },
+      {
+        "segment": "Lost",
+        "customer_count": 17,
+        "total_revenue": 4927421.22,
+        "revenue_share_pct": 7.8,
+        "avg_revenue_per_customer": 289848.31,
+        "avg_transactions_per_customer": 26.9,
+        "avg_days_since_last_purchase": 506.6
+      },
+      {
+        "segment": "Dormant",
+        "customer_count": 8,
+        "total_revenue": 2522278.93,
+        "revenue_share_pct": 4.0,
+        "avg_revenue_per_customer": 315284.87,
+        "avg_transactions_per_customer": 25.2,
+        "avg_days_since_last_purchase": 294.2
+      },
+      {
+        "segment": "At Risk",
+        "customer_count": 6,
+        "total_revenue": 1439020.21,
+        "revenue_share_pct": 2.3,
+        "avg_revenue_per_customer": 239836.7,
+        "avg_transactions_per_customer": 21.0,
+        "avg_days_since_last_purchase": 106.8
+      },
+      {
+        "segment": "High Value",
+        "customer_count": 3,
+        "total_revenue": 1390643.88,
+        "revenue_share_pct": 2.2,
+        "avg_revenue_per_customer": 463547.96,
+        "avg_transactions_per_customer": 23.7,
+        "avg_days_since_last_purchase": 76.3
+      }
+    ],
+    "cohort_retention": [
+      {
+        "cohort": "2024-12",
+        "customers": 5,
+        "retention_month_1_pct": 100.0,
+        "retention_month_3_pct": 100.0,
+        "retention_month_6_pct": 100.0,
+        "retention_month_12_pct": 60.0
+      },
+      {
+        "cohort": "2025-01",
+        "customers": 3,
+        "retention_month_1_pct": 100.0,
+        "retention_month_3_pct": 100.0,
+        "retention_month_6_pct": 100.0,
+        "retention_month_12_pct": 0.0
+      },
+      {
+        "cohort": "2025-02",
+        "customers": 5,
+        "retention_month_1_pct": 100.0,
+        "retention_month_3_pct": 100.0,
+        "retention_month_6_pct": 100.0,
+        "retention_month_12_pct": 0.0
+      },
+      {
+        "cohort": "2025-03",
+        "customers": 3,
+        "retention_month_1_pct": 100.0,
+        "retention_month_3_pct": 100.0,
+        "retention_month_6_pct": 100.0,
+        "retention_month_12_pct": 0.0
+      },
+      {
+        "cohort": "2025-04",
+        "customers": 5,
+        "retention_month_1_pct": 100.0,
+        "retention_month_3_pct": 100.0,
+        "retention_month_6_pct": 100.0,
+        "retention_month_12_pct": 0.0
+      },
+      {
+        "cohort": "2025-06",
+        "customers": 3,
+        "retention_month_1_pct": 100.0,
+        "retention_month_3_pct": 100.0,
+        "retention_month_6_pct": 100.0,
+        "retention_month_12_pct": 0.0
+      },
+      {
+        "cohort": "2025-07",
+        "customers": 3,
+        "retention_month_1_pct": 100.0,
+        "retention_month_3_pct": 100.0,
+        "retention_month_6_pct": 66.7,
+        "retention_month_12_pct": 0.0
+      },
+      {
+        "cohort": "2025-08",
+        "customers": 1,
+        "retention_month_1_pct": 100.0,
+        "retention_month_3_pct": 100.0,
+        "retention_month_6_pct": 0.0,
+        "retention_month_12_pct": 0.0
+      },
+      {
+        "cohort": "2025-09",
+        "customers": 5,
+        "retention_month_1_pct": 100.0,
+        "retention_month_3_pct": 100.0,
+        "retention_month_6_pct": 0.0,
+        "retention_month_12_pct": 0.0
+      },
+      {
+        "cohort": "2025-10",
+        "customers": 4,
+        "retention_month_1_pct": 100.0,
+        "retention_month_3_pct": 100.0,
+        "retention_month_6_pct": 0.0,
+        "retention_month_12_pct": 0.0
+      },
+      {
+        "cohort": "2025-11",
+        "customers": 2,
+        "retention_month_1_pct": 100.0,
+        "retention_month_3_pct": 0.0,
+        "retention_month_6_pct": 0.0,
+        "retention_month_12_pct": 0.0
+      },
+      {
+        "cohort": "2025-12",
+        "customers": 10,
+        "retention_month_1_pct": 100.0,
+        "retention_month_3_pct": 0.0,
+        "retention_month_6_pct": 0.0,
+        "retention_month_12_pct": 0.0
+      }
+    ],
+    "churn_by_channel": [
+      {
+        "acquisition_channel": "Referral",
+        "lost_customers": 6
+      },
+      {
+        "acquisition_channel": "Organic Search",
+        "lost_customers": 5
+      },
+      {
+        "acquisition_channel": "Partner",
+        "lost_customers": 4
+      },
+      {
+        "acquisition_channel": "Conference",
+        "lost_customers": 3
+      },
+      {
+        "acquisition_channel": "Email Campaign",
+        "lost_customers": 3
+      },
+      {
+        "acquisition_channel": "Cold Outreach",
+        "lost_customers": 2
+      },
+      {
+        "acquisition_channel": "Google Ads",
+        "lost_customers": 2
+      }
+    ],
+    "industry_breakdown": [
+      {
+        "industry": "Digital Agency",
+        "customer_count": 46,
+        "total_revenue": 16166929.56,
+        "avg_revenue_per_customer": 351454.99
+      },
+      {
+        "industry": "Consulting",
+        "customer_count": 24,
+        "total_revenue": 12386539.87,
+        "avg_revenue_per_customer": 516105.83
+      },
+      {
+        "industry": "Legal Services",
+        "customer_count": 22,
+        "total_revenue": 12015370.94,
+        "avg_revenue_per_customer": 546153.22
+      },
+      {
+        "industry": "SaaS",
+        "customer_count": 27,
+        "total_revenue": 8808272.27,
+        "avg_revenue_per_customer": 326232.31
+      },
+      {
+        "industry": "E-commerce",
+        "customer_count": 23,
+        "total_revenue": 4858328.31,
+        "avg_revenue_per_customer": 211231.67
+      },
+      {
+        "industry": "Education",
+        "customer_count": 20,
+        "total_revenue": 3200069.34,
+        "avg_revenue_per_customer": 160003.47
+      },
+      {
+        "industry": "Healthcare",
+        "customer_count": 12,
+        "total_revenue": 2907959.1,
+        "avg_revenue_per_customer": 242329.93
+      },
+      {
+        "industry": "Real Estate",
+        "customer_count": 26,
+        "total_revenue": 2506808.53,
+        "avg_revenue_per_customer": 96415.71
+      }
+    ],
+    "key_findings": [
+      {
+        "type": "warning",
+        "area": "churn_risk",
+        "finding": "16% of customers (31) show early churn signals.",
+        "recommendation": "Proactive outreach to at-risk customers. Consider a check-in call or satisfaction survey.",
+        "module": "customer_segments"
+      },
+      {
+        "type": "warning",
+        "area": "customer_concentration",
+        "finding": "Top-tier customers (Champions + Loyal) drive 84% of revenue \u2014 high dependency.",
+        "recommendation": "Nurture mid-tier customers to reduce concentration risk. Consider a loyalty program.",
+        "module": "customer_segments"
+      },
+      {
+        "type": "warning",
+        "area": "channel_quality",
+        "finding": "'Referral' has the highest churn count (6 lost customers).",
+        "recommendation": "Review lead quality from this channel. Adjust targeting or reduce spend if ROI is negative.",
+        "module": "customer_segments"
+      }
+    ]
+  },
+  "pricing_analysis": {
+    "summary": {
+      "overall_aov": 12570.06,
+      "median_aov": 5686.02,
+      "aov_coefficient_of_variation_pct": 138.4,
+      "total_services_offered": 31,
+      "avg_services_per_customer": 4.0
+    },
+    "aov_trend": [
+      {
+        "period": "2024-01",
+        "avg_order_value": 17441.5,
+        "median_order_value": 8204.51,
+        "transaction_count": 22
+      },
+      {
+        "period": "2024-02",
+        "avg_order_value": 12757.56,
+        "median_order_value": 5808.39,
+        "transaction_count": 56
+      },
+      {
+        "period": "2024-03",
+        "avg_order_value": 11568.39,
+        "median_order_value": 3517.42,
+        "transaction_count": 111
+      },
+      {
+        "period": "2024-04",
+        "avg_order_value": 11455.62,
+        "median_order_value": 5075.59,
+        "transaction_count": 140
+      },
+      {
+        "period": "2024-05",
+        "avg_order_value": 11962.01,
+        "median_order_value": 5264.22,
+        "transaction_count": 157
+      },
+      {
+        "period": "2024-06",
+        "avg_order_value": 12864.55,
+        "median_order_value": 6720.28,
+        "transaction_count": 182
+      },
+      {
+        "period": "2024-07",
+        "avg_order_value": 10995.64,
+        "median_order_value": 4747.28,
+        "transaction_count": 193
+      },
+      {
+        "period": "2024-08",
+        "avg_order_value": 11380.55,
+        "median_order_value": 4485.65,
+        "transaction_count": 197
+      },
+      {
+        "period": "2024-09",
+        "avg_order_value": 12235.86,
+        "median_order_value": 5916.72,
+        "transaction_count": 174
+      },
+      {
+        "period": "2024-10",
+        "avg_order_value": 11895.77,
+        "median_order_value": 6666.59,
+        "transaction_count": 210
+      },
+      {
+        "period": "2024-11",
+        "avg_order_value": 12627.68,
+        "median_order_value": 5419.16,
+        "transaction_count": 203
+      },
+      {
+        "period": "2024-12",
+        "avg_order_value": 13738.1,
+        "median_order_value": 6952.55,
+        "transaction_count": 230
+      },
+      {
+        "period": "2025-01",
+        "avg_order_value": 12917.2,
+        "median_order_value": 5964.13,
+        "transaction_count": 201
+      },
+      {
+        "period": "2025-02",
+        "avg_order_value": 12594.72,
+        "median_order_value": 6159.1,
+        "transaction_count": 190
+      },
+      {
+        "period": "2025-03",
+        "avg_order_value": 12819.04,
+        "median_order_value": 6033.85,
+        "transaction_count": 208
+      },
+      {
+        "period": "2025-04",
+        "avg_order_value": 12206.01,
+        "median_order_value": 6912.17,
+        "transaction_count": 211
+      },
+      {
+        "period": "2025-05",
+        "avg_order_value": 13367.15,
+        "median_order_value": 5502.66,
+        "transaction_count": 217
+      },
+      {
+        "period": "2025-06",
+        "avg_order_value": 10926.57,
+        "median_order_value": 4898.69,
+        "transaction_count": 244
+      },
+      {
+        "period": "2025-07",
+        "avg_order_value": 13159.03,
+        "median_order_value": 6404.84,
+        "transaction_count": 225
+      },
+      {
+        "period": "2025-08",
+        "avg_order_value": 11755.22,
+        "median_order_value": 5172.92,
+        "transaction_count": 231
+      },
+      {
+        "period": "2025-09",
+        "avg_order_value": 13049.23,
+        "median_order_value": 5250.46,
+        "transaction_count": 254
+      },
+      {
+        "period": "2025-10",
+        "avg_order_value": 12820.53,
+        "median_order_value": 5987.66,
+        "transaction_count": 271
+      },
+      {
+        "period": "2025-11",
+        "avg_order_value": 12367.98,
+        "median_order_value": 5703.41,
+        "transaction_count": 324
+      },
+      {
+        "period": "2025-12",
+        "avg_order_value": 13952.92,
+        "median_order_value": 6425.64,
+        "transaction_count": 549
+      }
+    ],
+    "pricing_tiers": [
+      {
+        "tier": "Strategic (\u20ac10K+)",
+        "transaction_count": 1811,
+        "total_revenue": 52363524.05,
+        "revenue_share_pct": 83.3,
+        "avg_amount": 28914.15
+      },
+      {
+        "tier": "Enterprise (\u20ac2K\u2013\u20ac9,999)",
+        "transaction_count": 1850,
+        "total_revenue": 9490128.33,
+        "revenue_share_pct": 15.1,
+        "avg_amount": 5129.8
+      },
+      {
+        "tier": "Premium (\u20ac500\u2013\u20ac1,999)",
+        "transaction_count": 719,
+        "total_revenue": 844937.26,
+        "revenue_share_pct": 1.3,
+        "avg_amount": 1175.16
+      },
+      {
+        "tier": "Standard (\u20ac100\u2013\u20ac499)",
+        "transaction_count": 532,
+        "total_revenue": 145775.49,
+        "revenue_share_pct": 0.2,
+        "avg_amount": 274.01
+      },
+      {
+        "tier": "Budget (<\u20ac100)",
+        "transaction_count": 88,
+        "total_revenue": 5912.79,
+        "revenue_share_pct": 0.0,
+        "avg_amount": 67.19
+      }
+    ],
+    "service_mix": [
+      {
+        "service": "Litigation Support",
+        "transaction_count": 155,
+        "total_revenue": 8472834.37,
+        "revenue_share_pct": 13.5,
+        "avg_amount": 54663.45,
+        "median_amount": 52231.52
+      },
+      {
+        "service": "Website Development",
+        "transaction_count": 263,
+        "total_revenue": 8026939.25,
+        "revenue_share_pct": 12.8,
+        "avg_amount": 30520.68,
+        "median_amount": 28176.27
+      },
+      {
+        "service": "Process Optimization",
+        "transaction_count": 166,
+        "total_revenue": 6160560.54,
+        "revenue_share_pct": 9.8,
+        "avg_amount": 37111.81,
+        "median_amount": 36553.26
+      },
+      {
+        "service": "Enterprise License",
+        "transaction_count": 176,
+        "total_revenue": 5948712.25,
+        "revenue_share_pct": 9.5,
+        "avg_amount": 33799.5,
+        "median_amount": 29839.61
+      },
+      {
+        "service": "Bulk Order",
+        "transaction_count": 161,
+        "total_revenue": 4705373.41,
+        "revenue_share_pct": 7.5,
+        "avg_amount": 29225.92,
+        "median_amount": 28969.48
+      },
+      {
+        "service": "PPC Campaign",
+        "transaction_count": 288,
+        "total_revenue": 4641590.96,
+        "revenue_share_pct": 7.4,
+        "avg_amount": 16116.64,
+        "median_amount": 14843.63
+      },
+      {
+        "service": "Market Analysis",
+        "transaction_count": 137,
+        "total_revenue": 2766868.25,
+        "revenue_share_pct": 4.4,
+        "avg_amount": 20196.12,
+        "median_amount": 17022.74
+      },
+      {
+        "service": "Retainer",
+        "transaction_count": 140,
+        "total_revenue": 2522837.22,
+        "revenue_share_pct": 4.0,
+        "avg_amount": 18020.27,
+        "median_amount": 16682.37
+      },
+      {
+        "service": "Corporate Training",
+        "transaction_count": 130,
+        "total_revenue": 2476402.35,
+        "revenue_share_pct": 3.9,
+        "avg_amount": 19049.25,
+        "median_amount": 16881.83
+      },
+      {
+        "service": "Executive Coaching",
+        "transaction_count": 176,
+        "total_revenue": 2300692.44,
+        "revenue_share_pct": 3.7,
+        "avg_amount": 13072.12,
+        "median_amount": 11802.42
+      },
+      {
+        "service": "Implementation Fee",
+        "transaction_count": 165,
+        "total_revenue": 2269509.88,
+        "revenue_share_pct": 3.6,
+        "avg_amount": 13754.61,
+        "median_amount": 12517.92
+      },
+      {
+        "service": "Corporate Health",
+        "transaction_count": 73,
+        "total_revenue": 2171051.93,
+        "revenue_share_pct": 3.5,
+        "avg_amount": 29740.44,
+        "median_amount": 29832.5
+      },
+      {
+        "service": "Social Media Mgmt",
+        "transaction_count": 265,
+        "total_revenue": 2025915.6,
+        "revenue_share_pct": 3.2,
+        "avg_amount": 7644.96,
+        "median_amount": 6975.1
+      },
+      {
+        "service": "SEO Package",
+        "transaction_count": 280,
+        "total_revenue": 1472483.75,
+        "revenue_share_pct": 2.3,
+        "avg_amount": 5258.87,
+        "median_amount": 5059.62
+      },
+      {
+        "service": "Strategy Session",
+        "transaction_count": 133,
+        "total_revenue": 1158418.64,
+        "revenue_share_pct": 1.8,
+        "avg_amount": 8709.91,
+        "median_amount": 8020.54
+      },
+      {
+        "service": "Property Management",
+        "transaction_count": 155,
+        "total_revenue": 997649.5,
+        "revenue_share_pct": 1.6,
+        "avg_amount": 6436.45,
+        "median_amount": 5171.76
+      },
+      {
+        "service": "Annual Subscription",
+        "transaction_count": 316,
+        "total_revenue": 926383.29,
+        "revenue_share_pct": 1.5,
+        "avg_amount": 2931.59,
+        "median_amount": 2779.2
+      },
+      {
+        "service": "Contract Review",
+        "transaction_count": 109,
+        "total_revenue": 751012.56,
+        "revenue_share_pct": 1.2,
+        "avg_amount": 6890.02,
+        "median_amount": 6324.38
+      },
+      {
+        "service": "Property Listing",
+        "transaction_count": 174,
+        "total_revenue": 611955.55,
+        "revenue_share_pct": 1.0,
+        "avg_amount": 3516.99,
+        "median_amount": 2966.93
+      },
+      {
+        "service": "Wellness Program",
+        "transaction_count": 59,
+        "total_revenue": 589230.32,
+        "revenue_share_pct": 0.9,
+        "avg_amount": 9986.95,
+        "median_amount": 8499.08
+      },
+      {
+        "service": "Valuation Report",
+        "transaction_count": 167,
+        "total_revenue": 583332.24,
+        "revenue_share_pct": 0.9,
+        "avg_amount": 3493.01,
+        "median_amount": 3354.31
+      },
+      {
+        "service": "Consultation Fee",
+        "transaction_count": 156,
+        "total_revenue": 313871.24,
+        "revenue_share_pct": 0.5,
+        "avg_amount": 2012.0,
+        "median_amount": 1909.74
+      },
+      {
+        "service": "Hourly Consultation",
+        "transaction_count": 158,
+        "total_revenue": 268686.79,
+        "revenue_share_pct": 0.4,
+        "avg_amount": 1700.55,
+        "median_amount": 1537.93
+      },
+      {
+        "service": "Course Enrollment",
+        "transaction_count": 118,
+        "total_revenue": 208665.57,
+        "revenue_share_pct": 0.3,
+        "avg_amount": 1768.35,
+        "median_amount": 1681.46
+      },
+      {
+        "service": "Workshop Ticket",
+        "transaction_count": 151,
+        "total_revenue": 131907.12,
+        "revenue_share_pct": 0.2,
+        "avg_amount": 873.56,
+        "median_amount": 775.9
+      },
+      {
+        "service": "Telemedicine Plan",
+        "transaction_count": 61,
+        "total_revenue": 119849.03,
+        "revenue_share_pct": 0.2,
+        "avg_amount": 1964.74,
+        "median_amount": 1987.13
+      },
+      {
+        "service": "Premium Membership",
+        "transaction_count": 147,
+        "total_revenue": 90268.99,
+        "revenue_share_pct": 0.1,
+        "avg_amount": 614.07,
+        "median_amount": 608.8
+      },
+      {
+        "service": "Monthly Subscription",
+        "transaction_count": 148,
+        "total_revenue": 46761.15,
+        "revenue_share_pct": 0.1,
+        "avg_amount": 315.95,
+        "median_amount": 280.08
+      },
+      {
+        "service": "Product Sale",
+        "transaction_count": 138,
+        "total_revenue": 39852.2,
+        "revenue_share_pct": 0.1,
+        "avg_amount": 288.78,
+        "median_amount": 271.64
+      },
+      {
+        "service": "Patient Consultation",
+        "transaction_count": 76,
+        "total_revenue": 27827.82,
+        "revenue_share_pct": 0.0,
+        "avg_amount": 366.16,
+        "median_amount": 338.97
+      },
+      {
+        "service": "Subscription Box",
+        "transaction_count": 159,
+        "total_revenue": 22833.71,
+        "revenue_share_pct": 0.0,
+        "avg_amount": 143.61,
+        "median_amount": 129.27
+      }
+    ],
+    "margin_analysis": {
+      "overall_avg_margin_pct": 26.1,
+      "margin_by_service": [
+        {
+          "service": "Litigation Support",
+          "avg_margin_pct": 25.0,
+          "total_revenue": 8472834.37
+        },
+        {
+          "service": "Website Development",
+          "avg_margin_pct": 25.0,
+          "total_revenue": 8026939.25
+        },
+        {
+          "service": "Process Optimization",
+          "avg_margin_pct": 22.0,
+          "total_revenue": 6160560.54
+        },
+        {
+          "service": "Enterprise License",
+          "avg_margin_pct": 35.0,
+          "total_revenue": 5948712.25
+        },
+        {
+          "service": "Bulk Order",
+          "avg_margin_pct": 12.0,
+          "total_revenue": 4705373.41
+        },
+        {
+          "service": "PPC Campaign",
+          "avg_margin_pct": 18.0,
+          "total_revenue": 4641590.96
+        },
+        {
+          "service": "Market Analysis",
+          "avg_margin_pct": 28.0,
+          "total_revenue": 2766868.25
+        },
+        {
+          "service": "Retainer",
+          "avg_margin_pct": 28.0,
+          "total_revenue": 2522837.22
+        },
+        {
+          "service": "Corporate Training",
+          "avg_margin_pct": 22.0,
+          "total_revenue": 2476402.35
+        },
+        {
+          "service": "Executive Coaching",
+          "avg_margin_pct": 35.0,
+          "total_revenue": 2300692.44
+        },
+        {
+          "service": "Implementation Fee",
+          "avg_margin_pct": 20.0,
+          "total_revenue": 2269509.88
+        },
+        {
+          "service": "Corporate Health",
+          "avg_margin_pct": 22.0,
+          "total_revenue": 2171051.93
+        },
+        {
+          "service": "Social Media Mgmt",
+          "avg_margin_pct": 22.0,
+          "total_revenue": 2025915.6
+        },
+        {
+          "service": "SEO Package",
+          "avg_margin_pct": 20.0,
+          "total_revenue": 1472483.75
+        },
+        {
+          "service": "Strategy Session",
+          "avg_margin_pct": 30.0,
+          "total_revenue": 1158418.64
+        },
+        {
+          "service": "Property Management",
+          "avg_margin_pct": 25.0,
+          "total_revenue": 997649.5
+        },
+        {
+          "service": "Annual Subscription",
+          "avg_margin_pct": 37.6,
+          "total_revenue": 926383.29
+        },
+        {
+          "service": "Contract Review",
+          "avg_margin_pct": 30.0,
+          "total_revenue": 751012.56
+        },
+        {
+          "service": "Property Listing",
+          "avg_margin_pct": 30.0,
+          "total_revenue": 611955.55
+        },
+        {
+          "service": "Wellness Program",
+          "avg_margin_pct": 25.0,
+          "total_revenue": 589230.32
+        },
+        {
+          "service": "Valuation Report",
+          "avg_margin_pct": 35.0,
+          "total_revenue": 583332.24
+        },
+        {
+          "service": "Consultation Fee",
+          "avg_margin_pct": 32.0,
+          "total_revenue": 313871.24
+        },
+        {
+          "service": "Hourly Consultation",
+          "avg_margin_pct": 35.0,
+          "total_revenue": 268686.79
+        },
+        {
+          "service": "Course Enrollment",
+          "avg_margin_pct": 20.0,
+          "total_revenue": 208665.57
+        },
+        {
+          "service": "Workshop Ticket",
+          "avg_margin_pct": 25.0,
+          "total_revenue": 131907.12
+        },
+        {
+          "service": "Telemedicine Plan",
+          "avg_margin_pct": 28.0,
+          "total_revenue": 119849.03
+        },
+        {
+          "service": "Premium Membership",
+          "avg_margin_pct": 18.0,
+          "total_revenue": 90268.99
+        },
+        {
+          "service": "Monthly Subscription",
+          "avg_margin_pct": 40.0,
+          "total_revenue": 46761.15
+        },
+        {
+          "service": "Product Sale",
+          "avg_margin_pct": 15.0,
+          "total_revenue": 39852.2
+        },
+        {
+          "service": "Patient Consultation",
+          "avg_margin_pct": 30.0,
+          "total_revenue": 27827.82
+        },
+        {
+          "service": "Subscription Box",
+          "avg_margin_pct": 20.0,
+          "total_revenue": 22833.71
+        }
+      ],
+      "revenue_weighted_margin_pct": 24.7
+    },
+    "price_dispersion": [
+      {
+        "service": "Strategy Session",
+        "min_price": 1833.05,
+        "max_price": 46682.91,
+        "avg_price": 8709.91,
+        "median_price": 8020.54,
+        "coefficient_of_variation_pct": 61.8
+      },
+      {
+        "service": "Market Analysis",
+        "min_price": 4565.63,
+        "max_price": 94279.71,
+        "avg_price": 20196.12,
+        "median_price": 17022.74,
+        "coefficient_of_variation_pct": 71.2
+      },
+      {
+        "service": "Implementation Fee",
+        "min_price": 2917.76,
+        "max_price": 63306.27,
+        "avg_price": 13754.61,
+        "median_price": 12517.92,
+        "coefficient_of_variation_pct": 63.8
+      },
+      {
+        "service": "Enterprise License",
+        "min_price": 5658.33,
+        "max_price": 148969.14,
+        "avg_price": 33799.5,
+        "median_price": 29839.61,
+        "coefficient_of_variation_pct": 66.9
+      },
+      {
+        "service": "Annual Subscription",
+        "min_price": 436.78,
+        "max_price": 10043.46,
+        "avg_price": 2931.59,
+        "median_price": 2779.2,
+        "coefficient_of_variation_pct": 57.1
+      },
+      {
+        "service": "Product Sale",
+        "min_price": 32.96,
+        "max_price": 1352.49,
+        "avg_price": 288.78,
+        "median_price": 271.64,
+        "coefficient_of_variation_pct": 67.3
+      },
+      {
+        "service": "Executive Coaching",
+        "min_price": 3077.31,
+        "max_price": 56280.99,
+        "avg_price": 13072.12,
+        "median_price": 11802.42,
+        "coefficient_of_variation_pct": 63.3
+      },
+      {
+        "service": "PPC Campaign",
+        "min_price": 2463.62,
+        "max_price": 64822.35,
+        "avg_price": 16116.64,
+        "median_price": 14843.63,
+        "coefficient_of_variation_pct": 59.2
+      },
+      {
+        "service": "Hourly Consultation",
+        "min_price": 285.04,
+        "max_price": 7219.92,
+        "avg_price": 1700.55,
+        "median_price": 1537.93,
+        "coefficient_of_variation_pct": 65.2
+      },
+      {
+        "service": "Process Optimization",
+        "min_price": 6668.01,
+        "max_price": 203962.26,
+        "avg_price": 37111.81,
+        "median_price": 36553.26,
+        "coefficient_of_variation_pct": 62.2
+      },
+      {
+        "service": "Monthly Subscription",
+        "min_price": 43.12,
+        "max_price": 1244.97,
+        "avg_price": 315.95,
+        "median_price": 280.08,
+        "coefficient_of_variation_pct": 64.4
+      },
+      {
+        "service": "Social Media Mgmt",
+        "min_price": 1831.29,
+        "max_price": 35431.38,
+        "avg_price": 7644.96,
+        "median_price": 6975.1,
+        "coefficient_of_variation_pct": 60.7
+      },
+      {
+        "service": "Valuation Report",
+        "min_price": 1050.71,
+        "max_price": 13385.22,
+        "avg_price": 3493.01,
+        "median_price": 3354.31,
+        "coefficient_of_variation_pct": 53.8
+      },
+      {
+        "service": "Property Management",
+        "min_price": 1015.48,
+        "max_price": 31136.7,
+        "avg_price": 6436.45,
+        "median_price": 5171.76,
+        "coefficient_of_variation_pct": 81.1
+      },
+      {
+        "service": "Patient Consultation",
+        "min_price": 90.82,
+        "max_price": 1690.65,
+        "avg_price": 366.16,
+        "median_price": 338.96,
+        "coefficient_of_variation_pct": 67.6
+      },
+      {
+        "service": "Workshop Ticket",
+        "min_price": 109.07,
+        "max_price": 4406.25,
+        "avg_price": 873.56,
+        "median_price": 775.9,
+        "coefficient_of_variation_pct": 74.4
+      },
+      {
+        "service": "Premium Membership",
+        "min_price": 89.29,
+        "max_price": 1680.46,
+        "avg_price": 614.07,
+        "median_price": 608.8,
+        "coefficient_of_variation_pct": 52.3
+      },
+      {
+        "service": "Litigation Support",
+        "min_price": 5476.07,
+        "max_price": 161528.7,
+        "avg_price": 54663.45,
+        "median_price": 52231.52,
+        "coefficient_of_variation_pct": 56.5
+      },
+      {
+        "service": "Consultation Fee",
+        "min_price": 417.1,
+        "max_price": 9173.37,
+        "avg_price": 2012.0,
+        "median_price": 1909.74,
+        "coefficient_of_variation_pct": 59.2
+      },
+      {
+        "service": "Property Listing",
+        "min_price": 530.25,
+        "max_price": 15041.04,
+        "avg_price": 3516.99,
+        "median_price": 2966.92,
+        "coefficient_of_variation_pct": 75.0
+      },
+      {
+        "service": "Corporate Training",
+        "min_price": 2788.15,
+        "max_price": 79502.97,
+        "avg_price": 19049.25,
+        "median_price": 16881.83,
+        "coefficient_of_variation_pct": 69.6
+      },
+      {
+        "service": "Subscription Box",
+        "min_price": 31.55,
+        "max_price": 552.84,
+        "avg_price": 143.61,
+        "median_price": 129.27,
+        "coefficient_of_variation_pct": 62.7
+      },
+      {
+        "service": "Contract Review",
+        "min_price": 1671.17,
+        "max_price": 29147.28,
+        "avg_price": 6890.02,
+        "median_price": 6324.38,
+        "coefficient_of_variation_pct": 58.3
+      },
+      {
+        "service": "Course Enrollment",
+        "min_price": 215.61,
+        "max_price": 8356.2,
+        "avg_price": 1768.35,
+        "median_price": 1681.46,
+        "coefficient_of_variation_pct": 61.8
+      },
+      {
+        "service": "Retainer",
+        "min_price": 4527.6,
+        "max_price": 71994.81,
+        "avg_price": 18020.27,
+        "median_price": 16682.37,
+        "coefficient_of_variation_pct": 58.1
+      },
+      {
+        "service": "SEO Package",
+        "min_price": 1246.52,
+        "max_price": 26050.62,
+        "avg_price": 5258.87,
+        "median_price": 5059.62,
+        "coefficient_of_variation_pct": 59.0
+      },
+      {
+        "service": "Website Development",
+        "min_price": 4227.57,
+        "max_price": 113108.22,
+        "avg_price": 30520.68,
+        "median_price": 28176.27,
+        "coefficient_of_variation_pct": 60.6
+      },
+      {
+        "service": "Bulk Order",
+        "min_price": 1240.6,
+        "max_price": 96698.36,
+        "avg_price": 29225.92,
+        "median_price": 28969.48,
+        "coefficient_of_variation_pct": 61.3
+      },
+      {
+        "service": "Corporate Health",
+        "min_price": 4392.53,
+        "max_price": 70898.92,
+        "avg_price": 29740.44,
+        "median_price": 29832.5,
+        "coefficient_of_variation_pct": 45.7
+      },
+      {
+        "service": "Telemedicine Plan",
+        "min_price": 438.17,
+        "max_price": 5340.78,
+        "avg_price": 1964.74,
+        "median_price": 1987.13,
+        "coefficient_of_variation_pct": 49.8
+      },
+      {
+        "service": "Wellness Program",
+        "min_price": 1971.3,
+        "max_price": 32898.75,
+        "avg_price": 9986.95,
+        "median_price": 8499.08,
+        "coefficient_of_variation_pct": 67.1
+      }
+    ],
+    "cross_sell_indicators": {
+      "pct_single_service_customers": 0.0,
+      "pct_multi_service_customers": 100.0,
+      "avg_services_per_customer": 4.0
+    },
+    "key_findings": [
+      {
+        "type": "warning",
+        "area": "margin_pressure",
+        "finding": "Weighted average margin is 25% \u2014 on the lower end.",
+        "recommendation": "Review cost structure for top revenue services. Consider price adjustments for low-margin offerings.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "margin_leak",
+        "finding": "'Process Optimization' generates \u20ac6,160,561 revenue but only 22% margin \u2014 revenue is masking inefficiency.",
+        "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "margin_leak",
+        "finding": "'Bulk Order' generates \u20ac4,705,373 revenue but only 12% margin \u2014 revenue is masking inefficiency.",
+        "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "margin_leak",
+        "finding": "'PPC Campaign' generates \u20ac4,641,591 revenue but only 18% margin \u2014 revenue is masking inefficiency.",
+        "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "margin_leak",
+        "finding": "'Corporate Training' generates \u20ac2,476,402 revenue but only 22% margin \u2014 revenue is masking inefficiency.",
+        "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "margin_leak",
+        "finding": "'Implementation Fee' generates \u20ac2,269,510 revenue but only 20% margin \u2014 revenue is masking inefficiency.",
+        "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "margin_leak",
+        "finding": "'Corporate Health' generates \u20ac2,171,052 revenue but only 22% margin \u2014 revenue is masking inefficiency.",
+        "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "margin_leak",
+        "finding": "'Social Media Mgmt' generates \u20ac2,025,916 revenue but only 22% margin \u2014 revenue is masking inefficiency.",
+        "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "margin_leak",
+        "finding": "'SEO Package' generates \u20ac1,472,484 revenue but only 20% margin \u2014 revenue is masking inefficiency.",
+        "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "margin_leak",
+        "finding": "'Course Enrollment' generates \u20ac208,666 revenue but only 20% margin \u2014 revenue is masking inefficiency.",
+        "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "margin_leak",
+        "finding": "'Premium Membership' generates \u20ac90,269 revenue but only 18% margin \u2014 revenue is masking inefficiency.",
+        "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "margin_leak",
+        "finding": "'Product Sale' generates \u20ac39,852 revenue but only 15% margin \u2014 revenue is masking inefficiency.",
+        "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "margin_leak",
+        "finding": "'Subscription Box' generates \u20ac22,834 revenue but only 20% margin \u2014 revenue is masking inefficiency.",
+        "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Strategy Session' shows high price variability (CV: 62%), ranging from \u20ac1,833 to \u20ac46,683.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Market Analysis' shows high price variability (CV: 71%), ranging from \u20ac4,566 to \u20ac94,280.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Implementation Fee' shows high price variability (CV: 64%), ranging from \u20ac2,918 to \u20ac63,306.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Enterprise License' shows high price variability (CV: 67%), ranging from \u20ac5,658 to \u20ac148,969.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Annual Subscription' shows high price variability (CV: 57%), ranging from \u20ac437 to \u20ac10,043.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Product Sale' shows high price variability (CV: 67%), ranging from \u20ac33 to \u20ac1,352.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Executive Coaching' shows high price variability (CV: 63%), ranging from \u20ac3,077 to \u20ac56,281.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'PPC Campaign' shows high price variability (CV: 59%), ranging from \u20ac2,464 to \u20ac64,822.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Hourly Consultation' shows high price variability (CV: 65%), ranging from \u20ac285 to \u20ac7,220.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Process Optimization' shows high price variability (CV: 62%), ranging from \u20ac6,668 to \u20ac203,962.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Monthly Subscription' shows high price variability (CV: 64%), ranging from \u20ac43 to \u20ac1,245.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Social Media Mgmt' shows high price variability (CV: 61%), ranging from \u20ac1,831 to \u20ac35,431.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Valuation Report' shows high price variability (CV: 54%), ranging from \u20ac1,051 to \u20ac13,385.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Property Management' shows high price variability (CV: 81%), ranging from \u20ac1,015 to \u20ac31,137.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Patient Consultation' shows high price variability (CV: 68%), ranging from \u20ac91 to \u20ac1,691.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Workshop Ticket' shows high price variability (CV: 74%), ranging from \u20ac109 to \u20ac4,406.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Premium Membership' shows high price variability (CV: 52%), ranging from \u20ac89 to \u20ac1,680.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Litigation Support' shows high price variability (CV: 56%), ranging from \u20ac5,476 to \u20ac161,529.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Consultation Fee' shows high price variability (CV: 59%), ranging from \u20ac417 to \u20ac9,173.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Property Listing' shows high price variability (CV: 75%), ranging from \u20ac530 to \u20ac15,041.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Corporate Training' shows high price variability (CV: 70%), ranging from \u20ac2,788 to \u20ac79,503.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Subscription Box' shows high price variability (CV: 63%), ranging from \u20ac32 to \u20ac553.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Contract Review' shows high price variability (CV: 58%), ranging from \u20ac1,671 to \u20ac29,147.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Course Enrollment' shows high price variability (CV: 62%), ranging from \u20ac216 to \u20ac8,356.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Retainer' shows high price variability (CV: 58%), ranging from \u20ac4,528 to \u20ac71,995.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'SEO Package' shows high price variability (CV: 59%), ranging from \u20ac1,247 to \u20ac26,051.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Website Development' shows high price variability (CV: 61%), ranging from \u20ac4,228 to \u20ac113,108.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Bulk Order' shows high price variability (CV: 61%), ranging from \u20ac1,241 to \u20ac96,698.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Corporate Health' shows high price variability (CV: 46%), ranging from \u20ac4,393 to \u20ac70,899.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Telemedicine Plan' shows high price variability (CV: 50%), ranging from \u20ac438 to \u20ac5,341.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      },
+      {
+        "type": "warning",
+        "area": "price_inconsistency",
+        "finding": "'Wellness Program' shows high price variability (CV: 67%), ranging from \u20ac1,971 to \u20ac32,899.",
+        "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+        "module": "pricing"
+      }
+    ]
+  },
+  "top_recommendations": [
+    {
+      "priority": "high",
+      "area": "channel_quality",
+      "finding": "'Referral' has the highest churn count (6 lost customers).",
+      "recommendation": "Review lead quality from this channel. Adjust targeting or reduce spend if ROI is negative.",
+      "module": "customer_segments"
+    },
+    {
+      "priority": "high",
+      "area": "churn_risk",
+      "finding": "16% of customers (31) show early churn signals.",
+      "recommendation": "Proactive outreach to at-risk customers. Consider a check-in call or satisfaction survey.",
+      "module": "customer_segments"
+    },
+    {
+      "priority": "high",
+      "area": "customer_concentration",
+      "finding": "Top-tier customers (Champions + Loyal) drive 84% of revenue \u2014 high dependency.",
+      "recommendation": "Nurture mid-tier customers to reduce concentration risk. Consider a loyalty program.",
+      "module": "customer_segments"
+    },
+    {
+      "priority": "high",
+      "area": "margin_leak",
+      "finding": "'Process Optimization' generates \u20ac6,160,561 revenue but only 22% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "priority": "high",
+      "area": "margin_leak",
+      "finding": "'Bulk Order' generates \u20ac4,705,373 revenue but only 12% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "priority": "high",
+      "area": "margin_leak",
+      "finding": "'PPC Campaign' generates \u20ac4,641,591 revenue but only 18% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "priority": "high",
+      "area": "margin_leak",
+      "finding": "'Corporate Training' generates \u20ac2,476,402 revenue but only 22% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "priority": "high",
+      "area": "margin_leak",
+      "finding": "'Implementation Fee' generates \u20ac2,269,510 revenue but only 20% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "priority": "high",
+      "area": "margin_leak",
+      "finding": "'Corporate Health' generates \u20ac2,171,052 revenue but only 22% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "priority": "high",
+      "area": "margin_leak",
+      "finding": "'Social Media Mgmt' generates \u20ac2,025,916 revenue but only 22% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    }
+  ],
+  "all_findings": [
+    {
+      "type": "warning",
+      "area": "channel_quality",
+      "finding": "'Referral' has the highest churn count (6 lost customers).",
+      "recommendation": "Review lead quality from this channel. Adjust targeting or reduce spend if ROI is negative.",
+      "module": "customer_segments"
+    },
+    {
+      "type": "warning",
+      "area": "churn_risk",
+      "finding": "16% of customers (31) show early churn signals.",
+      "recommendation": "Proactive outreach to at-risk customers. Consider a check-in call or satisfaction survey.",
+      "module": "customer_segments"
+    },
+    {
+      "type": "warning",
+      "area": "customer_concentration",
+      "finding": "Top-tier customers (Champions + Loyal) drive 84% of revenue \u2014 high dependency.",
+      "recommendation": "Nurture mid-tier customers to reduce concentration risk. Consider a loyalty program.",
+      "module": "customer_segments"
+    },
+    {
+      "type": "warning",
+      "area": "margin_leak",
+      "finding": "'Process Optimization' generates \u20ac6,160,561 revenue but only 22% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "margin_leak",
+      "finding": "'Bulk Order' generates \u20ac4,705,373 revenue but only 12% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "margin_leak",
+      "finding": "'PPC Campaign' generates \u20ac4,641,591 revenue but only 18% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "margin_leak",
+      "finding": "'Corporate Training' generates \u20ac2,476,402 revenue but only 22% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "margin_leak",
+      "finding": "'Implementation Fee' generates \u20ac2,269,510 revenue but only 20% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "margin_leak",
+      "finding": "'Corporate Health' generates \u20ac2,171,052 revenue but only 22% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "margin_leak",
+      "finding": "'Social Media Mgmt' generates \u20ac2,025,916 revenue but only 22% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "margin_leak",
+      "finding": "'SEO Package' generates \u20ac1,472,484 revenue but only 20% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "margin_leak",
+      "finding": "'Course Enrollment' generates \u20ac208,666 revenue but only 20% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "margin_leak",
+      "finding": "'Premium Membership' generates \u20ac90,269 revenue but only 18% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "margin_leak",
+      "finding": "'Product Sale' generates \u20ac39,852 revenue but only 15% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "margin_leak",
+      "finding": "'Subscription Box' generates \u20ac22,834 revenue but only 20% margin \u2014 revenue is masking inefficiency.",
+      "recommendation": "Audit delivery costs for this service. Consider automation, scoping improvements, or price increase.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "margin_pressure",
+      "finding": "Weighted average margin is 25% \u2014 on the lower end.",
+      "recommendation": "Review cost structure for top revenue services. Consider price adjustments for low-margin offerings.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Strategy Session' shows high price variability (CV: 62%), ranging from \u20ac1,833 to \u20ac46,683.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Market Analysis' shows high price variability (CV: 71%), ranging from \u20ac4,566 to \u20ac94,280.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Implementation Fee' shows high price variability (CV: 64%), ranging from \u20ac2,918 to \u20ac63,306.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Enterprise License' shows high price variability (CV: 67%), ranging from \u20ac5,658 to \u20ac148,969.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Annual Subscription' shows high price variability (CV: 57%), ranging from \u20ac437 to \u20ac10,043.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Product Sale' shows high price variability (CV: 67%), ranging from \u20ac33 to \u20ac1,352.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Executive Coaching' shows high price variability (CV: 63%), ranging from \u20ac3,077 to \u20ac56,281.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'PPC Campaign' shows high price variability (CV: 59%), ranging from \u20ac2,464 to \u20ac64,822.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Hourly Consultation' shows high price variability (CV: 65%), ranging from \u20ac285 to \u20ac7,220.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Process Optimization' shows high price variability (CV: 62%), ranging from \u20ac6,668 to \u20ac203,962.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Monthly Subscription' shows high price variability (CV: 64%), ranging from \u20ac43 to \u20ac1,245.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Social Media Mgmt' shows high price variability (CV: 61%), ranging from \u20ac1,831 to \u20ac35,431.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Valuation Report' shows high price variability (CV: 54%), ranging from \u20ac1,051 to \u20ac13,385.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Property Management' shows high price variability (CV: 81%), ranging from \u20ac1,015 to \u20ac31,137.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Patient Consultation' shows high price variability (CV: 68%), ranging from \u20ac91 to \u20ac1,691.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Workshop Ticket' shows high price variability (CV: 74%), ranging from \u20ac109 to \u20ac4,406.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Premium Membership' shows high price variability (CV: 52%), ranging from \u20ac89 to \u20ac1,680.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Litigation Support' shows high price variability (CV: 56%), ranging from \u20ac5,476 to \u20ac161,529.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Consultation Fee' shows high price variability (CV: 59%), ranging from \u20ac417 to \u20ac9,173.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Property Listing' shows high price variability (CV: 75%), ranging from \u20ac530 to \u20ac15,041.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Corporate Training' shows high price variability (CV: 70%), ranging from \u20ac2,788 to \u20ac79,503.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Subscription Box' shows high price variability (CV: 63%), ranging from \u20ac32 to \u20ac553.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Contract Review' shows high price variability (CV: 58%), ranging from \u20ac1,671 to \u20ac29,147.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Course Enrollment' shows high price variability (CV: 62%), ranging from \u20ac216 to \u20ac8,356.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Retainer' shows high price variability (CV: 58%), ranging from \u20ac4,528 to \u20ac71,995.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'SEO Package' shows high price variability (CV: 59%), ranging from \u20ac1,247 to \u20ac26,051.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Website Development' shows high price variability (CV: 61%), ranging from \u20ac4,228 to \u20ac113,108.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Bulk Order' shows high price variability (CV: 61%), ranging from \u20ac1,241 to \u20ac96,698.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Corporate Health' shows high price variability (CV: 46%), ranging from \u20ac4,393 to \u20ac70,899.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Telemedicine Plan' shows high price variability (CV: 50%), ranging from \u20ac438 to \u20ac5,341.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "warning",
+      "area": "price_inconsistency",
+      "finding": "'Wellness Program' shows high price variability (CV: 67%), ranging from \u20ac1,971 to \u20ac32,899.",
+      "recommendation": "Standardize pricing tiers or implement discount governance to preserve margin.",
+      "module": "pricing"
+    },
+    {
+      "type": "positive",
+      "area": "revenue_growth",
+      "finding": "Strong monthly growth rate of 17.0% \u2014 revenue is trending upward consistently.",
+      "recommendation": "Double down on what's working. Identify top-performing channels and allocate more budget.",
+      "module": "revenue_trends"
+    }
+  ]
+}

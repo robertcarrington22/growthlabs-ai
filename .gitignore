@@ -1,0 +1,22 @@
+# secrets — never commit; anything committed stays in git history forever
+.env
+.env.*
+*.env
+*secret*.json
+*credentials*.json
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# node / site build output
+node_modules/
+.vercel/
+.next/
+dist/
+build/
+
+# OS noise
+.DS_Store
+Thumbs.db

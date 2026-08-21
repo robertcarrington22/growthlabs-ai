@@ -1,0 +1,755 @@
+{
+  "report_metadata": {
+    "title": "GrowthLabs AI \u2014 Retail Inventory Audit: Demo Retailer",
+    "client": "Demo Retailer",
+    "report_date": "2026-07-09",
+    "generated_by": "GrowthLabs AI Inventory Analysis Engine"
+  },
+  "audit_type": "inventory_health",
+  "executive_summary": {
+    "cash_freeable": 1447.0,
+    "annual_recoverable_revenue": 434.1,
+    "annual_avoidable_carrying_cost": 361.75,
+    "total_recoverable_value": 969.49,
+    "headline": "$1,447 cash trapped in dead/excess stock, $434/yr recoverable from stockout improvements, $362/yr in avoidable carrying costs"
+  },
+  "kpi_scorecard": {
+    "kpis": {
+      "inventory_turns": {
+        "kpi": "Inventory Turns",
+        "value": 1145.43,
+        "dsi_days": 0.3,
+        "annual_cogs": 350545.0,
+        "average_inventory_value": 306.04,
+        "benchmark": "Excellent (grocery/GNC level)",
+        "arithmetic": "Turns = COGS(350,545) / AvgInv(306) = 1145.43x"
+      },
+      "days_sales_of_inventory": {
+        "kpi": "Days Sales of Inventory (DSI)",
+        "value": 0.3,
+        "inventory_value": 306.04,
+        "daily_cogs": 960.4,
+        "benchmark": "Very healthy \u2014 fast inventory velocity",
+        "arithmetic": "DSI = Inv(306) / DailyCOGS(960.40) = 0.3 days"
+      },
+      "gmroi": {
+        "kpi": "GMROI",
+        "value": 1839.09,
+        "gross_margin": 562827.67,
+        "average_inventory_cost": 306.04,
+        "benchmark": "Excellent \u2014 inventory is highly productive",
+        "arithmetic": "GMROI = GM(562,828) / AvgInvCost(306) = $1839.09 per $1 inventory"
+      },
+      "sell_through_rate_30day": {
+        "kpi": "Sell-Through Rate",
+        "value": 211.5,
+        "units_sold": 2405,
+        "units_received": 1137,
+        "period_days": 30,
+        "benchmark": "Fast-moving \u2014 ensure adequate replenishment",
+        "arithmetic": "SellThrough = 2405 / 1137 \u00d7 100 = 211.5%"
+      },
+      "weeks_of_cover": {
+        "kpi": "Weeks of Cover",
+        "value": 2.0,
+        "current_stock_units": 1137,
+        "avg_weekly_demand": 555.4,
+        "benchmark": "Low \u2014 buffer stock needed",
+        "arithmetic": "WoC = Stock(1137) / WeeklyDemand(555.4) = 2.0 weeks"
+      },
+      "dead_stock": {
+        "kpi": "Dead Stock",
+        "dead_sku_count": 5,
+        "dead_stock_units": 293,
+        "dead_stock_value": 1447.0,
+        "dead_stock_list_top_20": [
+          {
+            "sku": "DED-005",
+            "on_hand": 66,
+            "unit_cost": 10.0,
+            "total_value": 660.0,
+            "months_without_sale": 6
+          },
+          {
+            "sku": "DED-004",
+            "on_hand": 66,
+            "unit_cost": 4.0,
+            "total_value": 264.0,
+            "months_without_sale": 6
+          },
+          {
+            "sku": "DED-003",
+            "on_hand": 48,
+            "unit_cost": 5.0,
+            "total_value": 240.0,
+            "months_without_sale": 6
+          },
+          {
+            "sku": "DED-002",
+            "on_hand": 57,
+            "unit_cost": 3.0,
+            "total_value": 171.0,
+            "months_without_sale": 6
+          },
+          {
+            "sku": "DED-001",
+            "on_hand": 56,
+            "unit_cost": 2.0,
+            "total_value": 112.0,
+            "months_without_sale": 6
+          }
+        ],
+        "total_stocked_skus": 41,
+        "dead_stock_pct_of_skus": 12.2,
+        "no_sale_months_threshold": 6,
+        "arithmetic": "DeadStockValue = \u03a3(SKU_on_hand \u00d7 unit_cost) = $1,447.00"
+      }
+    },
+    "aggregates": {
+      "total_revenue": 913372.67,
+      "total_cogs": 350545.0,
+      "total_margin": 562827.67,
+      "average_inventory_value": 306.04,
+      "total_stock_units": 1137,
+      "total_trading_days": 365
+    },
+    "inventory_velocity": {
+      "DED-001": 2.117808219178082,
+      "DED-002": 2.2904109589041095,
+      "DED-003": 1.8054794520547945,
+      "DED-004": 2.021917808219178,
+      "DED-005": 2.0575342465753423,
+      "INT-001": 0.36164383561643837,
+      "INT-002": 0.29041095890410956,
+      "INT-003": 0.34794520547945207,
+      "INT-004": 0.4191780821917808,
+      "INT-005": 0.3726027397260274,
+      "INT-006": 0.27123287671232876,
+      "INT-007": 0.4,
+      "INT-008": 0.2684931506849315,
+      "SEA-001": 5.846575342465753,
+      "SEA-002": 4.589041095890411,
+      "SEA-003": 4.972602739726027,
+      "SEA-004": 4.701369863013698,
+      "SEA-005": 4.983561643835617,
+      "SEA-006": 4.586301369863014,
+      "SEA-007": 4.947945205479452,
+      "SEA-008": 4.578082191780822,
+      "SEA-009": 4.786301369863014,
+      "SEA-010": 4.701369863013698,
+      "STB-001": 2.1013698630136988,
+      "STB-002": 2.0904109589041098,
+      "STB-003": 1.819178082191781,
+      "STB-004": 1.9698630136986301,
+      "STB-005": 2.191780821917808,
+      "STB-006": 2.16986301369863,
+      "STB-007": 2.0273972602739727,
+      "STB-008": 1.9479452054794522,
+      "STB-009": 1.9424657534246574,
+      "STB-010": 1.904109589041096,
+      "TRD-001": 3.208219178082192,
+      "TRD-002": 3.7150684931506848,
+      "TRD-003": 3.210958904109589,
+      "TRD-004": 3.663013698630137,
+      "TRD-005": 3.750684931506849,
+      "TRD-006": 3.2575342465753425,
+      "TRD-007": 3.197260273972603,
+      "TRD-008": 3.1095890410958904
+    },
+    "kpi_count": 6
+  },
+  "kpi_scorecard_formatted": "============================================================\n  INVENTORY KPI SCORECARD\n============================================================\n\n  Revenue Analyzed:  $913,372.67\n  COGS:              $350,545.00\n  Gross Margin:      $562,827.67\n  Avg Inventory:     $306.04\n\n  Inventory Turns: 1145.43\n    \u2192 Excellent (grocery/GNC level)\n\n  Days Sales of Inventory (DSI): 0.3\n    \u2192 Very healthy \u2014 fast inventory velocity\n\n  GMROI: 1839.09\n    \u2192 Excellent \u2014 inventory is highly productive\n\n  Sell-Through Rate: 211.5\n    \u2192 Fast-moving \u2014 ensure adequate replenishment\n\n  Weeks of Cover: 2.0\n    \u2192 Low \u2014 buffer stock needed\n\n  Dead Stock: N/A\n    \u2192 \n\n  DEAD STOCK: 5 SKUs, 293 units, $1,447.00 trapped cash\n    \u2192 5 of 41 SKUs (12.2%) have had zero sales in 6 months",
+  "abc_xyz_classification": {
+    "abc_summary": {
+      "A": 19,
+      "B": 11,
+      "C": 11
+    },
+    "xyz_summary": {
+      "X": 24,
+      "Y": 16,
+      "Z": 1
+    },
+    "abc_xyz_matrix": {
+      "AX": 7,
+      "AY": 11,
+      "AZ": 1,
+      "BX": 7,
+      "BY": 4,
+      "CX": 10,
+      "CY": 1
+    },
+    "executive_note": "ABC-XYZ matrix covers 41 SKUs.   19 high-value SKUs (A) require tight management.   1 erratic-demand SKUs (Z) need special handling.   11 low-value SKUs (C) are candidates for simplification or discontinuation.",
+    "policy_map": {
+      "AX": "Automated replenishment \u2014 tight control, frequent small orders, JIT",
+      "AY": "Hybrid: forecast-driven with safety stock \u2014 moderate review cycle",
+      "AZ": "High-value erratic \u2014 make-to-order or drop-ship, minimize stock",
+      "BX": "Standard replenishment \u2014 periodic review, EOQ-based ordering",
+      "BY": "Seasonal/buffer stock \u2014 forecast-based with higher safety stock",
+      "CX": "Simplified reorder \u2014 large batch, infrequent review",
+      "CY": "Seasonal hold \u2014 order for specific campaigns only"
+    }
+  },
+  "top_20_actions": [
+    {
+      "sku": "DED-005",
+      "issue": "Dead stock \u2014 no sales in last 6 months",
+      "action": "Clear via markdown or bundle \u2014 do not reorder",
+      "stock_units": 66,
+      "cash_trapped": 660.0,
+      "annual_carrying_waste": 165.0,
+      "markdown_recovery_estimate": 396.0,
+      "impact_arithmetic": "$660 cash \u2192 carrying waste $165/yr, markdown recovery $396"
+    },
+    {
+      "sku": "DED-004",
+      "issue": "Dead stock \u2014 no sales in last 6 months",
+      "action": "Clear via markdown or bundle \u2014 do not reorder",
+      "stock_units": 66,
+      "cash_trapped": 264.0,
+      "annual_carrying_waste": 66.0,
+      "markdown_recovery_estimate": 158.4,
+      "impact_arithmetic": "$264 cash \u2192 carrying waste $66/yr, markdown recovery $158"
+    },
+    {
+      "sku": "DED-003",
+      "issue": "Dead stock \u2014 no sales in last 6 months",
+      "action": "Clear via markdown or bundle \u2014 do not reorder",
+      "stock_units": 48,
+      "cash_trapped": 240.0,
+      "annual_carrying_waste": 60.0,
+      "markdown_recovery_estimate": 144.0,
+      "impact_arithmetic": "$240 cash \u2192 carrying waste $60/yr, markdown recovery $144"
+    },
+    {
+      "sku": "DED-002",
+      "issue": "Dead stock \u2014 no sales in last 6 months",
+      "action": "Clear via markdown or bundle \u2014 do not reorder",
+      "stock_units": 57,
+      "cash_trapped": 171.0,
+      "annual_carrying_waste": 42.75,
+      "markdown_recovery_estimate": 102.6,
+      "impact_arithmetic": "$171 cash \u2192 carrying waste $43/yr, markdown recovery $103"
+    },
+    {
+      "sku": "DED-001",
+      "issue": "Dead stock \u2014 no sales in last 6 months",
+      "action": "Clear via markdown or bundle \u2014 do not reorder",
+      "stock_units": 56,
+      "cash_trapped": 112.0,
+      "annual_carrying_waste": 28.0,
+      "markdown_recovery_estimate": 67.2,
+      "impact_arithmetic": "$112 cash \u2192 carrying waste $28/yr, markdown recovery $67"
+    }
+  ],
+  "reorder_policy_sheet": {
+    "policy_count": 41,
+    "policies": [
+      {
+        "sku": "SEA-005",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 93.59,
+        "safety_stock": 17.45,
+        "order_frequency": 11.7,
+        "order_interval_days": 31.2,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "SEA-004",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 120.83,
+        "safety_stock": 17.45,
+        "order_frequency": 9.06,
+        "order_interval_days": 40.3,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "SEA-003",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 135.09,
+        "safety_stock": 17.45,
+        "order_frequency": 8.11,
+        "order_interval_days": 45.0,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "TRD-001",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 120.83,
+        "safety_stock": 17.45,
+        "order_frequency": 9.06,
+        "order_interval_days": 40.3,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "TRD-007",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 120.83,
+        "safety_stock": 17.45,
+        "order_frequency": 9.06,
+        "order_interval_days": 40.3,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "SEA-009",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 147.99,
+        "safety_stock": 17.45,
+        "order_frequency": 7.4,
+        "order_interval_days": 49.3,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "SEA-001",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 165.45,
+        "safety_stock": 17.45,
+        "order_frequency": 6.62,
+        "order_interval_days": 55.2,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "TRD-003",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 135.09,
+        "safety_stock": 17.45,
+        "order_frequency": 8.11,
+        "order_interval_days": 45.0,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "TRD-004",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 147.99,
+        "safety_stock": 17.45,
+        "order_frequency": 7.4,
+        "order_interval_days": 49.3,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "TRD-006",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 147.99,
+        "safety_stock": 17.45,
+        "order_frequency": 7.4,
+        "order_interval_days": 49.3,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "INT-008",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 46.8,
+        "safety_stock": 17.45,
+        "order_frequency": 23.4,
+        "order_interval_days": 15.6,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "TRD-005",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 165.45,
+        "safety_stock": 17.45,
+        "order_frequency": 6.62,
+        "order_interval_days": 55.2,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "TRD-002",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 209.28,
+        "safety_stock": 17.45,
+        "order_frequency": 5.23,
+        "order_interval_days": 69.8,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "INT-007",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 55.93,
+        "safety_stock": 17.45,
+        "order_frequency": 19.58,
+        "order_interval_days": 18.6,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "SEA-010",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 191.05,
+        "safety_stock": 17.45,
+        "order_frequency": 5.73,
+        "order_interval_days": 63.7,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "SEA-006",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 209.28,
+        "safety_stock": 17.45,
+        "order_frequency": 5.23,
+        "order_interval_days": 69.8,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "INT-004",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 60.42,
+        "safety_stock": 17.45,
+        "order_frequency": 18.12,
+        "order_interval_days": 20.1,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "SEA-007",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 233.99,
+        "safety_stock": 17.45,
+        "order_frequency": 4.68,
+        "order_interval_days": 78.0,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "INT-006",
+        "abc_class": "A",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 52.32,
+        "safety_stock": 17.45,
+        "order_frequency": 20.93,
+        "order_interval_days": 17.4,
+        "policy": "Automated JIT replenishment. Frequent small orders, tight monitoring."
+      },
+      {
+        "sku": "DED-005",
+        "abc_class": "B",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 147.99,
+        "safety_stock": 17.45,
+        "order_frequency": 7.4,
+        "order_interval_days": 49.3,
+        "policy": "Standard EOQ periodic review. Set-and-monitor monthly."
+      },
+      {
+        "sku": "TRD-008",
+        "abc_class": "B",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 270.19,
+        "safety_stock": 17.45,
+        "order_frequency": 4.05,
+        "order_interval_days": 90.1,
+        "policy": "Standard EOQ periodic review. Set-and-monitor monthly."
+      },
+      {
+        "sku": "SEA-002",
+        "abc_class": "B",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 250.14,
+        "safety_stock": 17.45,
+        "order_frequency": 4.38,
+        "order_interval_days": 83.4,
+        "policy": "Standard EOQ periodic review. Set-and-monitor monthly."
+      },
+      {
+        "sku": "INT-005",
+        "abc_class": "B",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 69.76,
+        "safety_stock": 17.45,
+        "order_frequency": 15.7,
+        "order_interval_days": 23.3,
+        "policy": "Standard EOQ periodic review. Set-and-monitor monthly."
+      },
+      {
+        "sku": "STB-002",
+        "abc_class": "B",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 191.05,
+        "safety_stock": 17.45,
+        "order_frequency": 5.73,
+        "order_interval_days": 63.7,
+        "policy": "Standard EOQ periodic review. Set-and-monitor monthly."
+      },
+      {
+        "sku": "INT-002",
+        "abc_class": "B",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 73.99,
+        "safety_stock": 17.45,
+        "order_frequency": 14.8,
+        "order_interval_days": 24.7,
+        "policy": "Standard EOQ periodic review. Set-and-monitor monthly."
+      },
+      {
+        "sku": "SEA-008",
+        "abc_class": "B",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 330.91,
+        "safety_stock": 17.45,
+        "order_frequency": 3.31,
+        "order_interval_days": 110.3,
+        "policy": "Standard EOQ periodic review. Set-and-monitor monthly."
+      },
+      {
+        "sku": "STB-003",
+        "abc_class": "B",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 209.28,
+        "safety_stock": 17.45,
+        "order_frequency": 5.23,
+        "order_interval_days": 69.8,
+        "policy": "Standard EOQ periodic review. Set-and-monitor monthly."
+      },
+      {
+        "sku": "DED-003",
+        "abc_class": "B",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 209.28,
+        "safety_stock": 17.45,
+        "order_frequency": 5.23,
+        "order_interval_days": 69.8,
+        "policy": "Standard EOQ periodic review. Set-and-monitor monthly."
+      },
+      {
+        "sku": "STB-001",
+        "abc_class": "B",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 233.99,
+        "safety_stock": 17.45,
+        "order_frequency": 4.68,
+        "order_interval_days": 78.0,
+        "policy": "Standard EOQ periodic review. Set-and-monitor monthly."
+      },
+      {
+        "sku": "INT-003",
+        "abc_class": "B",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 93.59,
+        "safety_stock": 17.45,
+        "order_frequency": 11.7,
+        "order_interval_days": 31.2,
+        "policy": "Standard EOQ periodic review. Set-and-monitor monthly."
+      },
+      {
+        "sku": "DED-002",
+        "abc_class": "C",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 270.19,
+        "safety_stock": 17.45,
+        "order_frequency": 4.05,
+        "order_interval_days": 90.1,
+        "policy": "Simplified two-bin system. Large batch, infrequent orders."
+      },
+      {
+        "sku": "DED-004",
+        "abc_class": "C",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 233.99,
+        "safety_stock": 17.45,
+        "order_frequency": 4.68,
+        "order_interval_days": 78.0,
+        "policy": "Simplified two-bin system. Large batch, infrequent orders."
+      },
+      {
+        "sku": "STB-006",
+        "abc_class": "C",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 270.19,
+        "safety_stock": 17.45,
+        "order_frequency": 4.05,
+        "order_interval_days": 90.1,
+        "policy": "Simplified two-bin system. Large batch, infrequent orders."
+      },
+      {
+        "sku": "STB-004",
+        "abc_class": "C",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 270.19,
+        "safety_stock": 17.45,
+        "order_frequency": 4.05,
+        "order_interval_days": 90.1,
+        "policy": "Simplified two-bin system. Large batch, infrequent orders."
+      },
+      {
+        "sku": "STB-005",
+        "abc_class": "C",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 295.97,
+        "safety_stock": 17.45,
+        "order_frequency": 3.7,
+        "order_interval_days": 98.7,
+        "policy": "Simplified two-bin system. Large batch, infrequent orders."
+      },
+      {
+        "sku": "STB-007",
+        "abc_class": "C",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 330.91,
+        "safety_stock": 17.45,
+        "order_frequency": 3.31,
+        "order_interval_days": 110.3,
+        "policy": "Simplified two-bin system. Large batch, infrequent orders."
+      },
+      {
+        "sku": "DED-001",
+        "abc_class": "C",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 330.91,
+        "safety_stock": 17.45,
+        "order_frequency": 3.31,
+        "order_interval_days": 110.3,
+        "policy": "Simplified two-bin system. Large batch, infrequent orders."
+      },
+      {
+        "sku": "STB-009",
+        "abc_class": "C",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 295.97,
+        "safety_stock": 17.45,
+        "order_frequency": 3.7,
+        "order_interval_days": 98.7,
+        "policy": "Simplified two-bin system. Large batch, infrequent orders."
+      },
+      {
+        "sku": "STB-010",
+        "abc_class": "C",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 382.1,
+        "safety_stock": 17.45,
+        "order_frequency": 2.87,
+        "order_interval_days": 127.4,
+        "policy": "Simplified two-bin system. Large batch, infrequent orders."
+      },
+      {
+        "sku": "STB-008",
+        "abc_class": "C",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 382.1,
+        "safety_stock": 17.45,
+        "order_frequency": 2.87,
+        "order_interval_days": 127.4,
+        "policy": "Simplified two-bin system. Large batch, infrequent orders."
+      },
+      {
+        "sku": "INT-001",
+        "abc_class": "C",
+        "xyz_class": "U",
+        "reorder_point": 59.45,
+        "eoq": 165.45,
+        "safety_stock": 17.45,
+        "order_frequency": 6.62,
+        "order_interval_days": 55.2,
+        "policy": "Simplified two-bin system. Large batch, infrequent orders."
+      }
+    ],
+    "default_assumptions": {
+      "order_cost": 25.0,
+      "lead_time_days": 14.0,
+      "lead_time_std": 3.0,
+      "service_level": 0.95,
+      "review_period_days": 7.0,
+      "holding_cost_rate": 0.25
+    }
+  },
+  "seasonal_prebuy_recommendations": [],
+  "forecasting_summary": {
+    "skus_forecasted": 41,
+    "model_counts": {
+      "SES": 29,
+      "Holt": 12
+    },
+    "forecast_horizon_months": 6
+  },
+  "dollar_quantification": {
+    "total_cash_trapped_in_dead_stock": 1447.0,
+    "annual_carrying_cost_waste": 361.75,
+    "annual_stockout_revenue_loss": 434.1,
+    "total_recoverable_value": 969.49
+  },
+  "methodology": {
+    "abc_classification": "Revenue-based: A=top80%, B=next15%, C=bottom5%",
+    "xyz_classification": "CV-based: X<0.5 stable, Y 0.5-1.0 variable, Z>1.0 erratic",
+    "forecasting": "statsmodels: SES/Holt/HW/Croston \u2014 model selection by holdout MAE",
+    "safety_stock": "z \u00d7 \u221a(L\u00b7\u03c3_d\u00b2 + d\u0304\u00b2\u00b7\u03c3_L\u00b2) at 95% service level (z=1.645)",
+    "eoq": "\u221a(2DS/H) where H = 25% of unit cost",
+    "newsvendor": "Q* = F\u207b\u00b9(CR) for seasonal buys",
+    "carrying_cost": "Standard 25%/year of inventory value",
+    "stockout_recovery": "Conservative 50% recovery assumption for lost sales",
+    "markdown_depth": "40% average markdown on dead stock for liquidation"
+  },
+  "recommendations": [
+    {
+      "priority": "high",
+      "finding": "$1,447 cash frozen in dead stock",
+      "recommendation": "Run immediate aged-inventory clearance. Target 50% recovery via markdowns and bundles.",
+      "estimated_impact": "$1,447 \u00d7 40% recovery = ~$579 cash freed"
+    },
+    {
+      "priority": "high",
+      "finding": "$362/year wasted on carrying dead/excess stock",
+      "recommendation": "Implement ABC-XYZ-driven inventory policy. Reduce CZ items to make-to-order.",
+      "estimated_impact": "$362/year recurring savings"
+    },
+    {
+      "priority": "medium",
+      "finding": "$434/year in estimated lost revenue from stockouts",
+      "recommendation": "Set safety stock levels using variable-lead-time formula. Monitor ROPs weekly.",
+      "estimated_impact": "50% recovery = ~$217/year recovered"
+    }
+  ]
+}
